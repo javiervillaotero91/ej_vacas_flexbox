@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  header.cabecera {
+      background-image:url("https://images.unsplash.com/photo-1595365691689-6b7b4e1970cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 50vh;   
+  }
+
+  header.cabecera h1 {
+      font-family: Roboto, sans-serif;
+      color:white;
+      font-size: 3.5rem;
+      text-align: center;
+  }
+
+  header h1 {
+        padding-top:0.5rem;
+  }
+
+  nav > ul {
+        display: flex;
+        justify-content: center;
+      }
+  
+  nav ul li {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    font-size:1.25rem;
+    margin:0.5rem 1rem 0 1rem;
+    list-style: none;
+  }
+
+  nav a {
+    text-decoration: none;
+    color:black;
+  }
+
+  aside a {
+      font-family: Roboto, sans-serif;
+      color:white;
+      font-size: 1rem;
+      text-decoration: none;
+  }
+
+  header aside {
+    text-align: center;
+    background-color: black;
+    margin: 0.5rem 6rem 0 6rem;
+    padding:0.5rem;
+  }
+
+  body {
+      background-color: orange;
+  }
+
+  main {
+      font-family:Robot, sans-serif;
+  }
+
+  main #intro h1 {
+      color:white;
+      font-size: 3.5rem;
+      padding:1rem 0.5rem 0rem 0.5rem;
+  }
+
+  main #intro p {
+      font-size: 1rem;
+      padding:0.5rem;
+  }
+
+  main #vacas article {
+      background-color: black;
+  }
+
+  main #vacas h1 {
+    color:white;
+    font-size: 1.75rem;
+    padding:0.5rem 0.5rem 0.25rem 0.5rem;
+  }
+
+  main #vacas p {
+      background-color: black;
+      color: white;
+      font-size: 1rem;
+      padding:0.75rem;
+  }
+
+  main #vacas a {
+      background-color: grey;
+      color: black;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding-top: 0.25rem;
+      padding-bottom:0.25rem;
+  }
+
+    main #formulario {
+      background-color: white;
+  }
+
+    main #formulario h2 {
+      color:orange;
+      padding:1.5rem 0.5rem 1.5rem 0.5rem;
+  } 
+
+    input, select, textarea{
+    background-color: orange;
+    border: 1px solid black;
+    margin-left: 0.25rem;
+    }
+
+    fieldset {
+        border: 0;
+    }
+
+    label {
+        max-width: 700px;
+        display: block;
+        margin:0.25rem;
+    }
+
+    fieldset {
+        margin: 0.25rem;
+    }
+
+    button {
+        background-color:black;
+        color:white;
+        margin-left: 0.25rem;
+        margin-bottom: 1rem;
+        padding: 0.25rem;
+      }
+    
+      /* Media queries */
+  
+  @media (min-width: 700px) {
+    header aside {
+        position: absolute;
+        right: 0;
+        top: 1rem;
+        width: 100px;
+        font-size: 0.5rem;
+    }
+
+    header.cabecera h1 {
+          font-size: 4rem;
+    }
+
+    nav {
+          position: absolute;
+          left:0;
+          top:1rem;
+          padding-left: 2rem;
+    }
+    
+    main #intro {
+        padding:2rem;
+    }
+
+    main #intro h1 {
+        font-size: 5rem;
+        }
+
+    main #intro p {
+        columns: 2;
+    }
+
+    main #vacas h1{
+        padding:0.25rem 1.5rem;
+    }
+
+    main #vacas p{
+        padding:0.25rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    main article {
+        margin:0.5rem 1rem;
+    }
+
+    main ul {
+        list-style: none;
+        display: flex;
+    }
+
+    main #formulario {
+        background-color: white;
+        margin: 1rem 0 1rem 0;
+    }
+  
+  }
+  

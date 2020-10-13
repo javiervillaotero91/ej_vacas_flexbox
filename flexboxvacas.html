@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Vacas</title>
+    <link rel="stylesheet" href="vacas.css" />
+
+</head>
+
+<body>
+ 
+ <header class="cabecera">
+
+    <h1>Vacas</h1>
+    <nav>
+    <ul>
+        <li> <a href="#intro"><strong>Intro</strong></a></li>
+        <li> <a href="#vacas"><strong>Vacas</strong></a></li>
+    </ul>
+    </nav>
+
+    <aside>
+        <a href="#formulario"><strong>Comprar</strong></a>
+    </aside>
+ </header>   
+
+ <main>
+     <section id="intro">
+        <h1>Intro</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident aliquid ipsa sed sequi perspiciatis quibusdam voluptates. Esse error iure ipsa velit adipisci, ipsum totam dicta perspiciatis soluta facere repudiandae vel repellat commodi possimus quaerat illum quae officia? Fugit magnam nisi adipisci molestias ipsam labore quaerat.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident aliquid ipsa sed sequi perspiciatis quibusdam voluptates. Esse error iure ipsa velit adipisci, ipsum totam dicta perspiciatis soluta facere repudiandae vel repellat commodi possimus quaerat illum quae officia? Fugit magnam nisi adipisci molestias ipsam labore quaerat.</p>
+    </section>
+
+<section id="vacas">
+    <ul>
+        <li>
+            <article>
+                <header>
+                    <img src="https://images.unsplash.com/photo-1549663253-bf7c0ddbde3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" alt="Imagen de una vaca" />
+                    <h1>Vaca 1</h1>
+                </header>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus soluta sed tempore deserunt sint placeat eaque harum, veniam dolorem.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#formulario"><strong>Comprar</strong></a>
+            </article>
+        </li>
+        <li>
+            <article>
+                <header>
+                    <img src="https://images.unsplash.com/photo-1549663253-bf7c0ddbde3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" alt="Imagen de una vaca" />
+                    <h1>Vaca 2</h1>
+                </header>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus soluta sed tempore deserunt sint placeat eaque harum, veniam dolorem.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#formulario"><strong>Comprar</strong></a>
+            </article>
+        </li>
+       <li>
+            <article>
+                <header>
+                    <img src="https://images.unsplash.com/photo-1549663253-bf7c0ddbde3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" />
+                    <h1>Vaca 3</h1>
+                </header>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus soluta sed tempore deserunt sint placeat eaque harum, veniam dolorem.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <a href="#formulario"><strong>Comprar</strong></a>
+            </article>
+        </li>
+    </ul>
+
+</section>
+
+<section id="formulario">
+    <form>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, consectetur.</h2>
+
+        <fieldset>
+            <label for="name"><strong>Nombre y apellidos</strong></label>
+            <input type="text" name="name" id="name"/>
+        </fieldset>
+
+         <fieldset>
+            <label for="name"><strong>Dirección</strong></label>
+            <input type="text" name="addres" id="adress"/>
+        </fieldset>
+
+        <fieldset>
+            <label for="provincia"><strong>Provincia</strong></label>
+            <select name="provincia" id="provincia">
+            <option>Selecciona la provincia...</option>
+            <option value="Lugo">Lugo</option>
+            <option value="A Coruña">A Coruña</option>
+            <option value="Ourense">Ourense</option>
+            <option value="Pontevedra">Pontevedra</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="comments"><strong>Comentarios</strong></label>  
+            <textarea name="comments" id="comments"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label for="newsletter"><strong>Recibir newsletter?</strong></label>  
+            <input type="checkbox" name="newsletter" id="newsletter"/>
+        </fieldset>
+
+        <button><strong>Enviar</strong></button>
+
+    </form>
+
+</section>
+ </main>
+    
+</body>
+</html>
